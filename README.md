@@ -8,6 +8,10 @@ The motivation behind this extension was to get rid of the Wine System Tray that
 
 Copy the `hideTrayIcons@jp7677` folder to `~/.local/share/gnome-shell/extensions`. The `intall.sh` script is doing exactly this.
 
+## Notes
+
+This extension will surely conflict with other tray-icons extensions. This extension does the job for hiding the Wine Task Tray, though using this extension might not be the best way to achieve this, there is proobably a more simple or more elegant way for doing so.
+
 ## Credits
 
 This extension was inspired and based on <https://github.com/MartinPL/Tray-Icons-Reloaded>
