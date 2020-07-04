@@ -1,0 +1,10 @@
+{
+  "description": "Hide Tray Icons is a GNOME Shell extension for hiding any legacy Tray Icons that would get special treatment otherwise, e.g. Wine tray icons.",
+  "name": "Hide Tray Icons",
+  "shell-version": [
+    "3.36"
+  ],
+  "url": "https://github.com/jp7677/hide-tray-icons",
+  "uuid": "hideTrayIcons@jp7677",
+  "version": 1
+}
