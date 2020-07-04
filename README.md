@@ -2,7 +2,7 @@
 
 Hide Tray Icons is a GNOME Shell extension for hiding any legacy Tray Icons that would get special treatment otherwise, e.g. Wine tray icons.
 
-The motivation behind this extension was to get rid of the Wine System Tray that would pop up when e.g. the Rockstar launcher starts for playing GTA5 or RDR2.
+The motivation behind this extension was to get rid of the Wine System Tray that would pop up in Gnome when e.g. the Rockstar launcher starts for playing GTA5 or RDR2.
 
 ## Installation
 
