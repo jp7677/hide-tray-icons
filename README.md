@@ -6,7 +6,7 @@ The motivation behind this extension was to get rid of the Wine System Tray that
 
 ## Installation
 
-Copy `hideTrayIcons@jp7677` to `~/.local/share/gnome-shell/extensions`. The `intall.sh` script is doing exactly this.
+Copy the `hideTrayIcons@jp7677` folder to `~/.local/share/gnome-shell/extensions`. The `intall.sh` script is doing exactly this.
 
 ## Credits
 
