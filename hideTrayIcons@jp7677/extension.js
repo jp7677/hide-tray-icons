@@ -1,16 +1,19 @@
-const System = imports.system;
-const Main = imports.ui.main;
-const Shell = imports.gi.Shell;
+import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
+import Shell from "gi://Shell";
+import * as Main from "resource:///org/gnome/shell/ui/main.js";
+import System from 'system';
 
 let tray;
 
-function enable() {
-	tray = new Shell.TrayManager();
-	tray.connect("tray-icon-added", () => {});
-	tray.manage_screen(Main.panel);
-}
+export default class HideTrayiconsExtension extends Extension {
+	enable() {
+		tray = new Shell.TrayManager();
+		tray.connect("tray-icon-added", () => {});
+		tray.manage_screen(Main.panel);
+	}
 
-function disable() {
-	tray = null;
-	System.gc();
+	disable() {
+		tray = null;
+		System.gc();
+	}
 }
